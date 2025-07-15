@@ -1,6 +1,7 @@
 package stepDefinitions;
 
-import org.testng.Assert;
+
+import org.junit.Assert;
 
 import io.cucumber.java.en.Then;
 import pageObjects.CheckoutPage;
@@ -20,7 +21,7 @@ public class CheckoutStepDefinition {
         checkoutPage.checkout();
         boolean found = checkoutPage.getProductName().stream()
                 .anyMatch(product -> product.getText().toLowerCase().contains(prodName));
-        Assert.assertTrue(found, "No product name matches: " + prodName);
+        Assert.assertTrue(found);
     }
 
     @Then("verify has ability to enter promo code and place the order")

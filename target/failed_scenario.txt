@@ -1,2 +1,1 @@
-file:src/test/java/features/searchProduct.feature:12:13
-file:src/test/java/features/placeOrder.feature:13:14
+file:src/test/java/features/searchProduct.feature:13

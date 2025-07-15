@@ -2,8 +2,9 @@ package stepDefinitions;
 
 import java.util.Iterator;
 import java.util.Set;
+
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import io.cucumber.java.en.Then;
 import pageObjects.LandingPage;
 import pageObjects.OffersPage;
@@ -44,23 +45,3 @@ public class OfferPageStepDefinition {
         setup.genericUtils.switchWindowToChild();
     }
 }
-/*
- * As we have seperated the OfferPageStepDefinition from
- * LandingPageStepDefinition,
- * so we will get issue from driver i.e. null pointer exception., and also for
- * landingProdName
- * here comes the role of dependency injection, we can use the same driver and
- * landingProdName
- * from LandingPageStepDefinition in OfferPageStepDefinition.
- * 
- * Dependency Injection helps in transferring the state of one step definition
- * to another.
- * we do it using picocontainer.
- */
-
-/*
- * as we are seeing that we are creating objects of pages here and using it
- * which is really not a good practice so we should
- * use page factory design pattern to create the objects of pages.
- * "FACTORY DESIGN PATTERN"
- */

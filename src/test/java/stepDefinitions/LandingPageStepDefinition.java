@@ -1,8 +1,7 @@
 package stepDefinitions;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import pageObjects.LandingPage;
@@ -43,21 +42,3 @@ public class LandingPageStepDefinition {
     }
 
 }
-/*
- * Single Responsibility Principle (SRP) is handled here by separating the
- * LandingPageStepDefinition from OfferPageStepDefinition.
- * Each class has its own responsibility, making the code cleaner and easier to
- * maintain.
- * 
- * Dependency Injection is used to share the WebDriver instance and
- * landingProdName between LandingPageStepDefinition and
- * OfferPageStepDefinition.
- * This allows OfferPageStepDefinition to access the same driver and product
- * name without needing to create a new instance.
- * Loosely Coupled Design is also achieved as the OfferPageStepDefinition does
- * not depend on the LandingPageStepDefinition directly.
- * Loosely coupled thing is handled by using TestContextSetup class which holds
- * the WebDriver and product name. i.e Dependency Injection
- * 
- * Loosely couple no interdependency
- */
