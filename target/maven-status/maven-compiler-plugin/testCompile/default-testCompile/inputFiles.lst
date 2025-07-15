@@ -1,0 +1,13 @@
+/Users/dikshasinha/cucumber-framework/src/test/java/pageObjects/PageObjectManager.java
+/Users/dikshasinha/cucumber-framework/src/test/java/utils/GenericUtils.java
+/Users/dikshasinha/cucumber-framework/src/test/java/pageObjects/OffersPage.java
+/Users/dikshasinha/cucumber-framework/src/test/java/utils/BaseTest.java
+/Users/dikshasinha/cucumber-framework/src/test/java/stepDefinitions/Hooks.java
+/Users/dikshasinha/cucumber-framework/src/test/java/stepDefinitions/OfferPageStepDefinition.java
+/Users/dikshasinha/cucumber-framework/src/test/java/pageObjects/LandingPage.java
+/Users/dikshasinha/cucumber-framework/src/test/java/cucumberOptions/TestNGTestRunner.java
+/Users/dikshasinha/cucumber-framework/src/test/java/stepDefinitions/CheckoutStepDefinition.java
+/Users/dikshasinha/cucumber-framework/src/test/java/cucumberOptions/FaileTestRunner.java
+/Users/dikshasinha/cucumber-framework/src/test/java/utils/TestContextSetup.java
+/Users/dikshasinha/cucumber-framework/src/test/java/stepDefinitions/LandingPageStepDefinition.java
+/Users/dikshasinha/cucumber-framework/src/test/java/pageObjects/CheckoutPage.java

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 13.28 s <<< FAILURE! - in TestSuite
+runScenario(cucumberOptions.TestNGTestRunner)  Time elapsed: 9.626 s  <<< FAILURE!
+java.lang.AssertionError: expected [No data] but found [Brocolli]
+
+runScenario(cucumberOptions.TestNGTestRunner)  Time elapsed: 11.188 s  <<< FAILURE!
+java.lang.AssertionError: expected [Tomato] but found [Beetroot]
+
+runScenario(cucumberOptions.TestNGTestRunner)  Time elapsed: 11.858 s  <<< FAILURE!
+java.lang.AssertionError: No product name matches: tom expected [true] but found [false]
+
+runScenario(cucumberOptions.TestNGTestRunner)  Time elapsed: 12.732 s  <<< FAILURE!
+java.lang.AssertionError: No product name matches: beet expected [true] but found [false]
+
