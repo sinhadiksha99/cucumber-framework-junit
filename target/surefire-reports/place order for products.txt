@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: place order for products
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.657 s - in place order for products
